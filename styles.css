@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #6F4E37; 
+    color: #FFFFFF; 
+}
+
+/* Streamlit main container background */
+.stApp {
+    background-color: #6F4E37;
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF; 
+}
+
+/* Text input and text area */
+.stTextInput, .stTextArea {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding: 10px; 
+    background-color: #A67B5B; 
+    color: #FED8B1; 
+}
+
+/* Buttons */
+.stButton {
+    background-color: #A67B5B; 
+    color: #ECB176; 
+    border: none; 
+    border-radius: 5px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    transition: background-color 0.3s;
+}
+
+.stButton:hover {
+    background-color: #A67B5B;  
+}
+
+/* Radio buttons */
+.stRadio {
+    display: flex; 
+    justify-content: space-between; 
+    margin-bottom: 10px; 
+}
+
+/* Specific styles for radio button labels */
+.stRadio label {
+    color: #FED8B1; 
+}
+
+/* File upload section */
+.file-upload {
+    margin: 20px 0; 
+}
+
+/* Output preview section */
+.output-preview {
+    margin-top: 20px; 
+}
+
+/* Custom class for additional styling */
+.custom-class {
+    color: #FFFFFF; 
+    font-weight: bold; 
+}
+
+/* Additional styles for all text elements */
+.stMarkdown, .stText, .stRadio, .stSelectbox, .stMultiselect {
+    color: #FFFFFF; 
+}
+
+/* Styles for select box and multiselect */
+.stSelectbox, .stMultiselect {
+    color: #FFFFFF; 
+    background-color: #3a3a3a; 
+}
