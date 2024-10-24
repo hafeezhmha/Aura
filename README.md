@@ -1,2 +1,2 @@
 # Aura
-Real-time transliteration
+A Multilingual real-time transliteration system
