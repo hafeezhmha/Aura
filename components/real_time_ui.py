@@ -24,7 +24,7 @@ class RealTimeTransliterationUI:
           output_lang = st.radio("", list(output_lang_options.keys()), format_func=lambda x: output_lang_options[x], key="output_lang")
 
       status_message = st.empty()
-      status_message.text("Status: ⚡ Model is Ready")
+      status_message.text("Status: ⚡ We are now live!")
       if st.button("Make Prediction", key="make_prediction"):
           transliterated_text, _ = self.transliterator.transliterate_realtime(input_text, output_lang)
           st.markdown("<h3 style='color: #ECB176;'>Transliterated Text</h3>", unsafe_allow_html=True)
